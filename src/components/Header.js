@@ -21,18 +21,12 @@ const useStyles = makeStyles((theme) => ({
 export const Header = () => {
     const classes = useStyles();
 
-
-
-
     return (
-
-
         <div className={classes.header}>
             <Container>
                 <NavigationBar />
             </Container>
-        </div>
-
+        </div> 
 
     );
 }

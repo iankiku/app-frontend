@@ -78,7 +78,9 @@ h1{
 
 .hero-heading div, .hero-heading div>h2{
 margin: 0;
+font-size: medium;
 }
+
 .tiny-heading {
   color: var(--green);
   font-size: 0.5em;

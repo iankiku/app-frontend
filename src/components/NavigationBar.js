@@ -10,6 +10,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import { withRouter } from 'react-router-dom';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -106,12 +107,20 @@ const NavigationBar = (props) => {
                     {isMobile ?
                         (<>
                             <div >
-                                <h3 className="text-logo">Ian Kiku</h3>
+                                <h3 className="text-logo">
+                                <Button variant="outlined" color="primary">
+                                        Ian Kiku
+                                    </Button>
+                                    </h3>
                             </div>
 
                         </>) : (
                             <div >
-                                <h3 className="text-logo">Ian Kiku</h3>
+                                 <h3 className="text-logo">
+                                <Button  variant="outlined" color="secondary">
+                                        Ian Kiku
+                                    </Button>
+                                    </h3>
                             </div>
                         )
 

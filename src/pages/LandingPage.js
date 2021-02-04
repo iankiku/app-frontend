@@ -1,10 +1,12 @@
+
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
+// eslint-disable-next-line
 import { Box, Container, Grid } from '@material-ui/core';
 import ApiTabs from '../components/tabs-component'
 import useFetchData from '../components/dataFetch'
-
+ 
 // https://use.fontawesome.com/releases/v5.12.0/css/all.css',
 
 // background: #f9f9ff
@@ -63,10 +65,11 @@ export const LandingPage = () => {
                                 <h2>Ian Kiku</h2>
                             </div>
                             <div className="big-heading">
-                                <h2>I'm a Software Engineer, I build things.</h2>
+                                <h2>I'm a Software Engineer, I build things on for the internet using.</h2>
                             </div>
                             <div className="call2action_text">
-                                <p>#Python, C#, Node.Js, Ruby on Rails</p>
+                                <p>Python, C#, Javascript, Node.Js, Ruby on Rails</p>
+                              
                             </div>
 
                         </Grid>
