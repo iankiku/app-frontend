@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 import React from 'react';
-import { Link } from "react-router-native"
+import { Link } from 'react-router-dom';
 
 export const Navigation = (props) => {
 
@@ -23,11 +23,13 @@ export const Navigation = (props) => {
 
                 <ul>
 
-                    <Link to="/"> Home
-                    </Link>
+
                     <li class="hover:bg-gray-100">
-                        <a
-                            href="."
+                        <Link to="/"> Home
+                        </Link>
+                    </li>
+                    <li class="hover:bg-gray-100">
+                        <Link to="/About"
                             class="h-16 px-6 flex flex justify-center items-center w-full
 					focus:text-orange-500">
                             <svg
@@ -49,7 +51,7 @@ export const Navigation = (props) => {
 							0-1.79 1.11z"></path>
                             </svg>
 
-                        </a>
+                        </Link>
                     </li>
 
                     <li class="hover:bg-gray-100">

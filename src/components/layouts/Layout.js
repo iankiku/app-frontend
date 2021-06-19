@@ -19,7 +19,7 @@ export const Layout = (props) => {
 export const ContentLayout = (props) => {
 
     return (
-        <div id="content-layout" class="container mx-auto">
+        <div id="content-layout" class="w-screen">
             {props.children}
         </div>
     )
